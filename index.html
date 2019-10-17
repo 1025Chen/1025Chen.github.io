@@ -1,304 +1,950 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Head tag -->
 <head><meta name="generator" content="Hexo 3.9.0">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--Description-->
-
-    
-
-    
-
-    <!--Author-->
-    
-        <meta name="author" content="John Doe">
-    
-
-    <!--Open Graph Title-->
-    
-        <meta property="og:title" content="Hexo">
-    
-
-    <!--Open Graph Description-->
-    
-
-    <!--Open Graph Site Name-->
-        <meta property="og:site_name" content="Hexo">
-
-    <!--Type page-->
-    
-        <meta property="og:type" content="website">
-    
-
-    <!--Page Cover-->
-    
-    
-        <meta property="og:image" content="http://yoursite.comhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
-    
-
-        <meta name="twitter:card" content="summary_large_image">
-
-    
-
-    
-        <meta name="twitter:image" content="http://yoursite.comhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
-    
-
-    <!-- Title -->
-    
-    <title>Hexo</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
     <![endif]-->
 
-    <!-- Gallery -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="John Doe">
 
-    <!-- Google Analytics -->
+
+    
     
 
 
-    <!-- favicon -->
-    
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
 
-</head>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <style> .article { opacity: 0;} </style>
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>Hexo</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: true,
+        isPost: false,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: 
+    }
+</script>
+
+
+    <script> yiliaConfig.jquery_ui = [false]; </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+
+</head></html>
 <body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/avatar.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">John Doe</a></h1>
+        </hgroup>
 
-    <!-- Menu -->
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Configurable Title</a>
-        </div>
+        
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                
-                    <li>
-                        <a href="/">
-                            
-                                Home
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/archives">
-                            
-                                Archives
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/tags">
-                            
-                                Tags
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/categories">
-                            
-                                Categories
-                            
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://github.com/klugjo/hexo-theme-clean-blog">
-                            
-                                <i class="fa fa-github fa-stack-2x"></i>
-                            
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
+        
 
-    <!-- Main Content -->
-    <!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
-<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Hexo</h1>
-                    <hr class="small">
-                    <span class="subheading"></span>
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>Menu</li>
+                        <li>Tags</li>
+                        
+                        <li>Friends</li>
+                        
+                        
+                        <li>About Me</li>
+                        
+                    </ul>
                 </div>
             </div>
-        </div>
-    </div>
-</header>
+        
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            
-                <div class="post-preview">
-    <a href="/2019/10/15/Github个人技术博客搭建步骤/">
-        <h2 class="post-title">
-            Github个人技术博客搭建步骤
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2019-10-15
-    </p>
-</div>
-<hr>
-            
-                <div class="post-preview">
-    <a href="/2019/10/15/java-基础知识点/">
-        <h2 class="post-title">
-            java 基础知识点
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2019-10-15
-    </p>
-</div>
-<hr>
-            
-                <div class="post-preview">
-    <a href="/2019/10/15/java面向对象知识点总结/">
-        <h2 class="post-title">
-            java面向对象知识点总结
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2019-10-15
-    </p>
-</div>
-<hr>
-            
-                <div class="post-preview">
-    <a href="/2019/10/09/hello-world/">
-        <h2 class="post-title">
-            Hello World
-        </h2>
-        
-    </a>
-    <p class="post-meta">
-        <!-- Date and Author -->
-        
-        2019-10-09
-    </p>
-</div>
-<hr>
-            
-
-            <ul class="pager">
-    
-    
-</ul>
-        </div>
-    </div>
-</div>
-
-
-
-    <!-- Footer -->
-    <hr />
-
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:123@123.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" href="#" title="GitHub"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
                     
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
 
-                    
-
-                    
-                        <li>
-                            <a href="https://github.com/klugjo/hexo-theme-clean-blog" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    
-
-                    
-
-                    
-
-                    
-                </ul>
-                <p class="copyright text-muted">&copy; 2019 John Doe<br></p>
-                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
-                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端</div>
+                </section>
+                
             </div>
         </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">John Doe</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/avatar.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">John Doe</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:123@123.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
+                            
+                                <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="Tags" friends="Friends" about="About Me"/>
+</nav>
+      <div class="body-wrap">
+  
+    <article id="post-Github个人技术博客搭建步骤" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2019/10/15/Github个人技术博客搭建步骤/" class="article-date">
+      <time datetime="2019-10-15T09:06:11.000Z" itemprop="datePublished">2019-10-15</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/15/Github个人技术博客搭建步骤/">Github个人技术博客搭建步骤</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>Github个人技术博客搭建步骤</p>
+<p><strong>一、前期准备</strong>1、GitHub账号</p>
+<p>注册地址：<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a></p>
+<p>2、Node.js环境</p>
+<p>下载地址：<a href="https://nodejs.org/download/" target="_blank" rel="noopener">https://nodejs.org/download/</a></p>
+<p>3、Git 软件：下载地址<a href="http://git-scm.com/download/" target="_blank" rel="noopener">http://git-scm.com/download/</a></p>
+<p><strong>二、软件安装</strong>1、注册GitHub账号</p>
+<p>1)Github账户注册和新建项目，项目必须要遵守格式：账户名.github.io，此处账号名作为后期个人博客的地址使用2。并且需要勾选Initialize this repository with a README。（如果没有勾选，后期要创建README文件即可）</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps1.jpg" alt="img"> </p>
+<p>2)创建一个新的repository(代码仓库), 注意，名称必须是xxx.github.io 格式，并且xxx必须是你在GitHub的用户名。</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps2.jpg" alt="img"> </p>
+<p>3)在建好的项目右侧有个settings按钮，点击它，向下拉到GitHub Pages，你会看到那边有个网址，可以访问它。你将会惊奇的发现该项目已经被部署到网络上，能够通过外网来访问它。</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps3.jpg" alt="img"> </p>
+<p>2.安装Node.js</p>
+<p>在node.js指定地址下载，采用最新的版本即可。</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps4.jpg" alt="img"> </p>
+<p>本文实例以v10.16.3 版本为例，其他版本类似， 安装步骤： </p>
+<p>步骤 1 : 双击下载后的安装包 v10.16.3，如下所示：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps5.png" alt="img"> </p>
+<p>步骤 2 : 点击以上的Run(运行)，将出现如下界面：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps6.png" alt="img"> </p>
+<p>步骤 3 : 勾选接受协议选项，点击 next（下一步） 按钮 :</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps7.png" alt="img"> </p>
+<p>步骤 4 : Node.js默认安装目录为 “C:\Program Files\nodejs&quot; , 你可以修改目录，并点击 next（下一步）：<img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps8.png" alt="img"></p>
+<p>步骤 5 : 点击树形图标来选择你需要的安装模式 , 然后点击下一步 next（下一步）</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps9.png" alt="img"> </p>
+<p>步骤 6 :点击 Install（安装） 开始安装Node.js。你也可以点击 Back（返回）来修改先前的配置。 然后并点击 next（下一步）：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps10.png" alt="img"> </p>
+<p>安装过程：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps11.png" alt="img"> </p>
+<p>点击 Finish（完成）按钮退出安装向导。</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps12.png" alt="img"> </p>
+<p>检查Node.js版本</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps13.png" alt="img"> </p>
+<p>3.安装Git</p>
+<p>指定位置，进行下载</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps14.jpg" alt="img"> </p>
+<p>步骤1：从git官网下一个git安装包并安装。这里以64位讲解Git-2.23.0-64-bit.exe</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps15.png" alt="img"> </p>
+<p>步骤2：点击git.exe安装程序，点击【next】，根据自己的情况，选择程序的安装目录。</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps16.png" alt="img"> </p>
+<p>步骤3：继续点击“Next”，显示截图如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps17.png" alt="img"> </p>
+<p>步骤4：.选择完之后，点击“Next”，显示截图如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps18.png" alt="img"> </p>
+<p>步骤5：.点击“Next”，显示截图如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps19.png" alt="img"> </p>
+<p>选择编辑器，看自己喜好。</p>
+<p>步骤6：继续点击“Next”，设置环境变量</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps20.png" alt="img"> </p>
+<p>步骤7：选择之后，继续点击“Next”，显示如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps21.png" alt="img"> </p>
+<p>步骤8：选择之后，继续点击“Next”，显示如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps22.png" alt="img"> </p>
+<p>步骤9：选择之后，继续点击“Next”，显示如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps23.png" alt="img"> </p>
+<p>步骤10：.选择之后，继续点击“Next”，显示如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps24.png" alt="img"> </p>
+<p>步骤11：选择之后，继续点击“Next”，显示如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps25.png" alt="img"> </p>
+<p>步骤12：选择之后，点击“Install”，显示如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps26.png" alt="img"> </p>
+<p>步骤13：安装完毕后，点击“finish”</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps27.png" alt="img"> </p>
+<p>验证是否安装成功，在桌面上点击鼠标右键，点击Git Bash Here，弹出交互界面，表示正确安装成功！</p>
+<p> <img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps28.jpg" alt="img"></p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps29.jpg" alt="img"> </p>
+<p><strong>三、**</strong>H<strong>**exo配置流程</strong></p>
+<p>1、安装Hexo</p>
+<p>Hexo 是一款基于 Node.js 的静态博客框架。Hexo 使用 Markdown 解析文章，用户在本地安装Hexo并进行写作，通过一条命令，Hexo即可利用靓丽的主题自动生成静态网页。</p>
+<p>1）新建文件夹hexo</p>
+<p>首先创建一个文件夹，用来存放Hexo模板和项目，然后进入 hexo 文件夹，鼠标右键点击Git Bash Here。 </p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps30.jpg" alt="img"> </p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps31.jpg" alt="img"> </p>
+<p>2）安装hexo基础框架</p>
+<p>// 这是安装hexo的基础框架（此处要求已经安装了node.js环境）</p>
+<p>第一步：npm install hexo-cli -g   </p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps32.jpg" alt="img"> </p>
+<p>第二步：hexo init blog </p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps33.jpg" alt="img"> </p>
+<p>它就会在当前目录下生成一个blog的文件夹，并在里面生成相关配置信息。</p>
+<p>第三步：cd blog  </p>
+<p>切换到blog目录下</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps34.jpg" alt="img"> </p>
+<p>第四步：npm install</p>
+<p>安装必备的组件，安装完成之后，blog文件夹的目录结构大致如下：</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps35.jpg" alt="img"> </p>
+<p>// 编译生成静态页面，会在当前目录下生成一个新的叫做public的文件夹。</p>
+<p>第五步：hexo g</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps36.jpg" alt="img"> </p>
+<p>// 启动本地服务</p>
+<p>第六步：hexo s</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps37.jpg" alt="img"> </p>
+<p>打开链接<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000</a>，看到这样的网页就成功啦。<img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps38.jpg" alt="img"></p>
+<p>2、    hexo主题设置，这里以主题yilia为例进行说明。</p>
+<p>1）安装主题（此处当前目录为blog）</p>
+<p>git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps39.jpg" alt="img"> </p>
+<p>2）启用主题</p>
+<p>cd themes/yilia</p>
+<p>git pull   //获取远程内容</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps40.jpg" alt="img"> </p>
+<p>3）    修改配置文件</p>
+<p>修改hexo目录下的_config.yml配置文件中的theme属性，将其设置为我们前面克隆下来的主体样式，此处theme: yilia</p>
+<p>4）    重启服务</p>
+<p>切换到blog目录</p>
+<p>hexo g  # 重新生成静态文件</p>
+<p>hexo s # 启动本地web服务器</p>
+<p>现在打开<a href="http://localhost:4000，会看到我们已经应用了一个新的主题。" target="_blank" rel="noopener">http://localhost:4000，会看到我们已经应用了一个新的主题。</a></p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps41.jpg" alt="img"> </p>
+<h1 id="四、部署到GitHub服务器"><a href="#四、部署到GitHub服务器" class="headerlink" title="四、部署到GitHub服务器"></a>四、部署到GitHub服务器</h1><p>1、使用git命令行部署（optional）</p>
+<p>   此处我们采用git命令来完成部署的工作。</p>
+<p>1) cd d:/hexo/blog</p>
+<p>2) git clone  <a href="https://github.com/fang235/fang235.github.io" target="_blank" rel="noopener">https://github.com/fang235/fang235.github.io</a>  .deploy/fang235.github.io</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps42.jpg" alt="img"> </p>
+<p>将我们之前创建的repo克隆到本地，新建一个目录叫做.deploy用于存放克隆的代码。</p>
+<p>3) hexo generate   //生成静态文件</p>
+<p>cp -R public/* .deploy/fang235.github.io  //复制文件</p>
+<p>cd .deploy/fang235.github.io //切换目录</p>
+<p>git add .  //将需要提交的代码添加到暂存区</p>
+<p>git commit -m “update” //将暂存区内容提交给本地版本库</p>
+<p>git push //推送给远程服务器</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps43.jpg" alt="img"> </p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps44.jpg" alt="img"> </p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps45.jpg" alt="img"> </p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps46.jpg" alt="img"> </p>
+<p>简单解释一下，hexo generate生成public文件夹下的新内容，然后将其拷贝至fang235.github.io的git目录下，然后使用git commit命令提交代码到fang235.github.io这个repo的master branch上。</p>
+<p>需要部署的时候，执行第三个步骤。执行过程中可能需要让你输入Github账户的用户名及密码，按照提示操作即可。</p>
+<p>2、    验证</p>
+<p>打开浏览器，输入地址：<a href="https://fang.github.io/" target="_blank" rel="noopener">https://fang.github.io/</a> ，就可以看到我们的博客上线了哈哈哈！！！</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps47.jpg" alt="img"> </p>
+<h1 id="五、发布博客内容"><a href="#五、发布博客内容" class="headerlink" title="五、发布博客内容"></a><strong>五、发布博客内容</strong></h1><p>1、创建博客标题</p>
+<p>hexo new “post title with whitespace”</p>
+<p><img src="file:///C:%5CUsers%5Cck%5CAppData%5CLocal%5CTemp%5Cksohtml8760%5Cwps48.jpg" alt="img"> </p>
+<p>2、编写博客内容</p>
+<p>找到创建的md文件，使用编辑器打开，按照Markdown的格式，编写博客内容，编写完成之后，执行以下代码，将博客内容推送到远程服务器上。</p>
+<p>hexo generate   //生成静态文件</p>
+<p>cp -R public/* .deploy/1025Chen.github.io  //复制文件</p>
+<p>cd .deploy/1025Chen.github.io //切换目录</p>
+<p>git add .  //将需要提交的代码添加到暂存区</p>
+<p>git commit -m “update” //将暂存区内容提交给本地版本库</p>
+<p>git push //推送给远程服务器</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-java-基础知识点" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2019/10/15/java-基础知识点/" class="article-date">
+      <time datetime="2019-10-15T08:56:25.000Z" itemprop="datePublished">2019-10-15</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/15/java-基础知识点/">java 基础知识点</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>一、语言基础：   </p>
+<p>1..概述：<br>（1）Java语言规范，API（应用程序接口）。JavaSE、JavaEE、JavaME。JDK。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.java编译为.class，Java虚拟机（JVM）执行。（每个类都被编译成一个独立的.class文件）</span><br></pre></td></tr></table></figure>
+
+<p>（2）注释：//           /<strong>/   文档注释：/</strong>  */ ， javadoc命令提取成HTML文件，放在类或者方法头前面。</p>
+<p>（3）二元操作符两边各加一个空格。</p>
+<p>（4）文件名必须与公共类名完全相同。   </p>
+<p>（5）程序设计错误：语法错误，运行时错误，逻辑错误。</p>
+<p>（6）Java 程序可以内嵌在HTML 网页内，通过Web 浏览器下载. 给Web 客户带来生动的动画和灵活的交互性。   </p>
+<p>2..基本程序设计：<br>（1）加号“+”：字符串连接符。字符串常量不能跨行，可用“+”。</p>
+<p>（2）输入输出：</p>
+<p> ① System.out：标准输出设备，默认显示器。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.in：标准输入设备，默认键盘。</span><br></pre></td></tr></table></figure>
+
+<p>②不直接支持控制台输入：</p>
+<p>Import java.util.Scanner;<br>Scanner input=new Scanner(System.in);<br>input.nextDouble();//（可以空格或者回车键分开 连续几个nextDouble()方法时）<br>（3）import:</p>
+<p>import java.util.Scanner;</p>
+<p> import java.util.*;</p>
+<p>除非要在程序中使用某个类，否则关于被导人包中的这些类的信息在编译时或运行时是不被读入的。导人语句只是告诉编译器在什么地方能找到这些类。声明明确导人和声明通配符导人在性能上是没有什么差别的。</p>
+<p>（4）标识符：</p>
+<p>①字母、数字、下划线、美元符号（$），不能以数字开头。（习惯上，$只用在机器自动产生的源代码中。）</p>
+<p>②命名习惯：</p>
+<p>变量和方法: 第一个单词的字母小写，而后面的每个单词的首字母大写。例如，变量radius 和area 以及方法print。</p>
+<p>类名：每个单词的首字母大写。例如，类名ComputeArea 和System。</p>
+<p>常量：所有字母大写，两个单词间用下划线连接。常童PI 和常量MAX_VALUE0。</p>
+<p>（5）变量：</p>
+<p>变量声明告知编译器根据数据类型为变量分配合适的内存空间。</p>
+<p>（6）赋值语句、赋值表达式：</p>
+<p>Java中赋值语句可以作为一个表达式。</p>
+<p>表达式表示涉及值、变量和操作符的一个运算，它们组合在一起计算出一个新值。</p>
+<p>赋值语句本质上：计算出一个值并将它赋给操作符左边变量的一个表达式。</p>
+<p>（7）命名常量：</p>
+<p>命名常量（named const），简称常量。Final。</p>
+<p>final double PI=3.14159;</p>
+<p>（8）数值数据类型和操作：</p>
+<p>①byte short  int  long float  double（双精度）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">IEEE 754标准，计算机上表示浮点数。</span><br></pre></td></tr></table></figure>
+
+<p>②%：只有当被除数是负数时，余数才是负的。例如：-7%3 结果是-1, -12%4 结果是0, -26%-8 结果是-2, 20%-13结果是7。</p>
+<p>求余、余数运用例子：</p>
+<p>如果今天是星期六，10天之后是星期几呢？是星期二</p>
+<p>Math.pow(a,b)   a^b</p>
+<p>（9）数值型直接量：</p>
+<p>一个直接量（literal) 是一个程序中直接出现的常量值。</p>
+<p>①整形：默认为int，十进制</p>
+<p>long:追加L或l</p>
+<p>二进制：0b或0B开头</p>
+<p>八进制：0开头</p>
+<p>十六进制：0x或0X开头。</p>
+<p>②浮点型：默认为double</p>
+<p>float:追加f或F</p>
+<p>double:追加d或D</p>
+<p>③科学计数法：</p>
+<p>浮点型直接量也可以用ax 10^b 形式的科学记数法表示。例如，1.23456 X 10^2 可以写成1.23456E2 或者l.23456E+2，而1.23456 x10^-2 等于1.23456E-2。E (或e) 表示指数，既可以是大写的也可以是小写的。</p>
+<p>注：为了提高可读性，Java 允许在数值直接量的两个数字间使用下划线。</p>
+<p>long ssn =232_45_4519;<br>longcreditCardNumber=2324 _4545_4519_3415L;<br>然而，45_和_45 是不正确的。下划线必须置于两个数字间。<br>（10）自增、自减操作符：</p>
+<p>i++ 后置自增操作符</p>
+<p>++i 前置自增操作符</p>
+<p>（11）数值类型转换：</p>
+<p>拓宽类型（自动）、缩窄类型（显示完成）。（强制类型转换）</p>
+<p>注：Java 中，x1 op= x2 形式的增强赋值表达式，执行为xl = (T)(x1 op x2), 这里T是x1 的类型。因此，下面代码是正确的。</p>
+<p>int sum =0;</p>
+<p>sum +=4.5;// sum becomes 4 after this statement</p>
+<p>sum += 等价于sum = (int)(sum+ 4.5).</p>
+<p>（12）技巧、常见错误：</p>
+<p>①tax *100 是1185.3</p>
+<p>(int)(tax * 100)是1185</p>
+<p>(int)(tax * 100) / 100.0 是11.85</p>
+<p>②System.currentTimeMillis（）：返回从GMT 1970 年1 月1 日00:00:00 开始到当前时刻的毫秒数。（时间戳是时间开始计时的点，因为1970 年是UNIX 操作系统正式发布的时间，所以这一时间也称为UNIX 时间戳（UNIX epoch)。）</p>
+<p>③整数溢出：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Java不会给出关于溢出的瞥告或者错误，，因此，当处理一个与给定类型的最大和最小范围很接近的数值时，要特别小心。</span><br><span class="line"></span><br><span class="line"> 如果存储的浮点数很小（例如，接近于0 )，这会引起向下溢出。Java 会将它近似为0,所以一般情况下不用考虑向下溢出的问题。</span><br></pre></td></tr></table></figure>
+
+<p>④取整错误：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">        计算得到的数字的近似值和确切的算术值之间的不同。因为一个变量保存的位数是有限的，因此取整错误是无法避免的。涉及浮点数的计算都是近似的，因为这些数没有以准确的精度来存储。</span><br><span class="line"></span><br><span class="line">整数可以精确地存储，整数计算得到的是精确的整数运算结果。</span><br></pre></td></tr></table></figure>
+
+<p>⑤超出预期的整数除法：</p>
+<p>   Java 使用同样的除法操作符来执行整数和浮点数的除法。当两个操作数是整数时，/ 操作符执行一个整数除法，操作的结果是整数，小数部分被截去。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">要强制两个整数执行一个浮点数除法时，将其中一个整数转换为浮点数值</span><br></pre></td></tr></table></figure>
+
+<p>（13）软件开发过程：</p>
+<p>3..选择：<br>（1）Boolean类型:true false（直接量）</p>
+<p>（2）if    if-else    if-else if-else      switch     tiaojian？expression1：expression2；</p>
+<p>在同一个块中，else 总是和离它最近的if 子句匹配</p>
+<p>Switch:……</p>
+<p>（3）常见错误：</p>
+<p>①对布尔值的冗余测试 if (even == true)  if(even)</p>
+<p> 错误：if (even = true)</p>
+<p>②尝试：简化布尔变量賦值</p>
+<p>③两个浮点数值的相等测试：</p>
+<p>可以测试两个数的差距小于某个阈值，来比较它们是否已经足够接近。</p>
+<p>（4）产生随机数：</p>
+<p>①System.currentTimeMills()%10…… 产生一个整数，其他方法更好。</p>
+<p>②Math.Random()  0.0~1.0之间double值，包括0.0，不包括1.0</p>
+<p>(int)( Math.random()*10)  0~9之间整数</p>
+<p>（5）System.exit(status)</p>
+<p>调用这个方法可以终止程序。参数status 为0 表明程序正常结束。一个非0 的状态代码表示非正常结束。</p>
+<p>（6）逻辑操作符：</p>
+<p>!               &amp;&amp;          ||            ^（异或）</p>
+<p>产生布尔表达式</p>
+<p>&amp;&amp;、|| ：短路</p>
+<p>（7）操作符优先级、结合性：</p>
+<p>（8）调试：</p>
+<p>4..数学函数、字符、字符串：<br>数学函数</p>
+<p>Math类：java.lang包<br>常量：PI，E</p>
+<p>方法：三角函数方法、指数函数方法、服务方法。</p>
+<p>三角函数方法：</p>
+<p>atan(a)返回值 -π/2<del>π/2,acos(a)返回值0</del>π。</p>
+<p>指数函数方法：</p>
+<p>服务方法：</p>
+<p>min,max,abs :min(2.5,3)</p>
+<p>random(): 0.0&lt;=Math.random()&lt;1.0 double类型          a+(int)(Math.random()*b)</p>
+<p>字符数据类型和操作</p>
+<p>（1）编码表：Unicode ASCII,Unicode码包括ASCII码，’\u0000’到‘\u007F’ 对应128个ASCII表<br>Java支持Unicode码，一个16位Unicode码占2字节，\u开头4位十六进制数表示，’\u0000’到’\uFFFF’。<br>Java中Unicode和ASCII都可使用。<br>（2）转义字符：<br>诸如\u03bl的转义符用于表示一个Unicode。转义序列中的序列号作为一个整体翻译，而不是分开翻译。一个转义序列被当作一个字符。</p>
+<p>（3）char类型与数值类型 的转换：<br>0~FFFF 可隐式转成字符型，其他范围显式转换。<br>所有数值操作符都可以用在char 型操作数上。如果另一个操作数是一个数字或字符，那么char 型操作数就会被自动转换成一个数字；如果另一个操作数是一个字符串，字符就会与该字符串相连。<br>（4）方法：</p>
+<blockquote>
+<p>&lt; ……</p>
+</blockquote>
+<p>Character.isDigit(c);</p>
+<p>String类型<br>（1）</p>
+<p>这些方法为实例方法。<br>字符串连接：concat() +（若要用加号实现连接功能，至少要有一个操作数必须为字符串）+=<br>trim():删除字符串两端的空白字符返回一个新字符串。字符  ‘ ‘ 、\t、\f、\r、或者\n 被称为空白字符。例如，”\t Good Night \n”.trim()返回一个新字符串Good Night。<br>（2）控制台读取字符串、字符：<br>字符串：Scanner对象的next()方法。<br>next()方法读取以空白字符结束的字符串（即  ‘ ‘ 、’\t’、’\f’、’\r’、或者’\n’ )。<br>nextLine() 方法读取一整行文本,读取以按下回车键为结束标志的字符串。<br>字符：调用nextLine()方法读取一个字符串，然后在字符串上调用charAt(0)来返回一个字符。<br>（3）字符串比较：</p>
+<p>==：检测s1,s2是否指向同一对象，而不是它们内容是否相同。<br>（4）获得子字符串：</p>
+<p>（5）获取子字符串中的字符或者子串：</p>
+<p>（6）字符串和数字之间的转换：<br>Integer、Double 包含于java.lang中，是自动导入的。<br>字符串（数值型）-&gt;数值：int a=Integer.parseInt(intString);Double.parseDouble(doubleString)<br>数值-&gt;字符串：+   string s=number+””;<br>格式化控制台输出：<br>System.out.printf()    P124</p>
+<p>默认情况下，浮点值显示小数点后6 位数字</p>
+<p>默认情况下，输出是右对齐的。可以在格式标识符中放一个负号（-）, 表明该条目在特定区域中的输出是左对齐的。<br>注：使用符号％ 来标记格式标识符，要在格式字符串里输出直接量%, 需要使用％%。<br>5..循环<br>while  do-while  for<br>在循环控制中，不要使用浮点值来比较值是否相等。因为浮点值都是某些值的近似值，使用它们可能导致不精确的循环次数和不准确的结果。<br>while(true){……}</p>
+<p>break continue<br>break 立即终止包含break 的最内层循环;continue 只是终止当前迭代。<br>continue 语句总是在一个循环内。在while 和do-while 循环中，continue 语句之后会马上计算循环继续条件；而在for 循环中，continue 语句之后会立即先执行每次迭代后的动作，再计算循环继续条件。<br>Java语言中goto是保留关键字，没有goto语句，也没有任何使用goto关键字的地方。<br>输入输出重定向：<br>P141</p>
+<p>最小数值化错误：<br>在循环继续条件中使用浮点数将导致数值错误。</p>
+<p>float -&gt; double<br>使用整数计数器<br>（如果结果值要求的精度比变量可以存储的更高，那么添加一个非常小的数到一个非常大的数上可能没有什么影响。例如，100000000.0+0.000000001的不精确的结果是100000000.0。）为了得到更精确的结果，仔细选择计算的顺序。在较大数之前先增加较小数是减小误差的一种方法。</p>
+<p>6..方法<br>（1）我们经常会说“定义方法” 和“ 声明变量”，这里我们谈谈两者的细微差别。定义是指被定义的条目是什么，而声明通常是指为被声明的条目分配内存来存储數据。<br>（2）方法名和参数列表一起构成方法签名。</p>
+<p>（3）main方法是由Java虚拟机调用的。<br>（4）void方法不需要return语句，但它能用于终止方法并返回到方法调用者。语法为：return;<br>（5）重载方法：可以使用同样的名字来定义不同方法，只要它们的签名是不同的。<br>在一个类中有两个方法，它们具有相同的名字，但有不同的参数列表。Java 编译器根据方法签名决定使用哪个方法。<br>被重载的方法必须具有不同的参数列表，不能基于不同修饰符或者返回值类型来重载方法。<br>（6）变量作用域：<br>在方法中定义的变量：局部变量。局部变量的作用域从声明变量的地方开始，直到包含该变量的块结束为止。局部变量都必须在使用之前进行声明和赋值。<br>在for 循环头中初始动作部分声明的变量，其作用域是整个for 循环。但是在for 循环体内声明的变量，其作用域只限于循环体内，是从它的声明处开始，到包含该变量的块结束为止。<br>（7）方法抽象与逐步求精：<br>自顶向下，自底向上。<br>7..一维数组<br>（1）声明、创建、初始化数组：<br>double[] a;      （double a[]也可以）<br>不同于基本数据类型变量的声明，声明一个数组变量时并不在内存中给数组分配任何空间。它只是创建一个对数组的引用的存储位置。如果变量不包含对数组的引用，那么这个变量的值为null。<br>double[] a=new double[10];<br>为了简化，通常说a是一个数组，而不用更长的陈述：a是一个含有10 个double 型元素数组的引用变量。<br>double[] a={ 1.2  ,3 , 4 , 5.2 };<br>（2）默认值：<br>a.length<br>创建数组后，它的元素被赋予默认值。数值型基本数据类型：0，char:’\u0000’,boolean:false。<br>（3）处理数组：<br>对于char[] 类型的数组，可以使用一条打印语句打印。例如：<br>char[] city={ ‘D’,’a’,’l’,’l’,’a’,’s’ };<br>System.out.println(city);<br>（4）foreach循环：<br>for(double e:myList){<br>System.out.println(e);<br>}<br>对myList 中每个元素e 进行以下操作<br>（5）复制数组：<br>循环语句逐个复制；System.arraycopy;clone方法（13章讲）。</p>
+<p>arraycopy 方法没有给目标数组分配内存空间。复制前必须创建目标数组以及分配给它的内存空间。复制完成后，sourceArray 和targetArray 具有相同的内容，但占有独立的内存空间。</p>
+<p>list2 =listl；该语句并不能将listl引用的数组内容复制给list2, 而只是将listl的引用值复制给了list2。在这条语句之后，listl 和list2 都指向同一个数组，list2 原先所引用的数组不能再引用，它就变成了垃圾，会被Java 虚拟机自动收回（这个过程称为垃圾回收）。</p>
+<p>（6）将数组传递给方法、从方法中返回数组：<br>public static void printArray(int[] array){……}</p>
+<p>printArray(new int[]{3,1,2,6,4,2});<br>new int[]{ 1,2,3,4 }  匿名数组</p>
+<p>给方法传递引用<br>数组在Java 中是对象，JVM 将对象存储在一个称作堆（heap）的内存区域中，堆用于动态内存分配。</p>
+<p>从方法中返回一个数组时，数组的引用被返回。<br>public static int[] reverse(int[] list){<br>    ……<br>    return mylist;<br>}</p>
+<p>（7）可变长参数列表：<br>具有同样类型的可变长度的参数可以传递给方法，并将作为数组对待。<br>只能给方法中指定一个可变长参数，同时该参数必须是最后一个参数。任何常规参数必须在它之前。</p>
+<p>（8）二分查找（P227代码）、线性查找 ，选择排序<br>（9）Arrays类<br>java.util.Arrays  静态方法<br>①排序：</p>
+<p>②查找：<br>binarySearch方法：数组要提前按升序排列好。返回值：不存在返回-（插入点下标+1），正常返回索引。<br>binarySearch(list,’a’);<br>③检测相等：<br>equals方法：equals(list1,list2);<br>④填充整个或部分数组：<br>fill方法：下列代码将5 填充到 list1 中，将8 填充到元素 list2[1] 到 list2[5-1] 中<br>int[] list1={2,3,7,10};<br>int[] list2={2,4,7,7,7,10};<br>fill(list1,5);<br>fill(list2,1,5,8)//fill 8 to a partial array<br>⑤返回字符串：<br>toString方法：<br>int[] list={2,4,7,10};<br>System.out.println(Arrays.toString(list));<br>（10）命令行参数：<br>main方法可以从命令行接受字符串参数。<br>public static void main(String[] args){……}  args:字符串数组</p>
+<p>java TestMain  arg0  arg1  arg2<br>java TestMain  arg1  “arg have space”  arg3</p>
+<p>如果运行程序时没有传递字符串，那么使用new String[0]创建数组。此时，该数组是长度为0的空数组。args不为null,但args.length=0;</p>
+<p>当符号* 用于命令行时表示当前目录下的所有文件。在使用命令 java Test * 之后，下面的程序就会显示当前目录下的所有文件。</p>
+<p>8..多维数组<br>（1）二维数组：<br>①<br>int[][] matrix=new int[5][5];<br>int[][] a={ {1,2,3},{4,5,6},{7,8,9},{10,11,12} };<br>a.length a[0].length</p>
+<p>②锯齿数组<br>int[][] triangleArray={ {1,2,3,4,5},{2,3,4,5},{3,4,5},{4,5},{6} };</p>
+<p>int[][] triangleArray=new int[5][];<br>triangleArray[0]=new int[5];<br>triangleArray[1]=new int[4];<br>注：使用语法new int[5][] 创建数组时，必须指定第一个下标。语法new int[][] 是错误的。</p>
+<p>（2）多维数组：<br>double[][][] scores=new double [6][5][2];</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-java面向对象知识点总结" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2019/10/15/java面向对象知识点总结/" class="article-date">
+      <time datetime="2019-10-15T04:04:04.000Z" itemprop="datePublished">2019-10-15</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/15/java面向对象知识点总结/">java面向对象知识点总结</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="第二章：类和对象创建"><a href="#第二章：类和对象创建" class="headerlink" title="第二章：类和对象创建"></a>第二章：类和对象创建</h2><p><strong>概念：</strong>面向对象就是把一个项目，一个事情分成更小的项目，或者说分成一个个更小的部分，每一部分负责 什么方面的功能，最后再由这些部分组合而成为一个整体。</p>
+<p><strong>好处：</strong>面相对象更接近实物的本质，提高代码的复用更具有扩展性。</p>
+<p><strong>如何使用：</strong>通常是创建类的对象再给属性赋值。</p>
+<p><strong>构造方法：</strong>构造方法的名称和类名相同，没有返回值类型。GO g=new GO();</p>
+<p><strong>构造方法的重载：</strong>方法名相同，参数列表不同，这是构造方法的重载。如果一个类中包含了两个或两个以上的方 法，他们方法名相同，方法参数个数或者参数类型不同，则称该方法被重载了，这个过程是方法重 载。</p>
+<p><strong>Static：</strong>可以用来修饰属性，方法和代码块，静态方法中不能使用this和super关键字。</p>
+<h2 id="第三章：封装"><a href="#第三章：封装" class="headerlink" title="第三章：封装"></a>第三章：封装</h2><p><strong>概念：</strong>封装指的是将对象的状态信息隐藏在对象内部，不允许外部程序直接访问对象内部信息，而是通过该类所提 供的方法来实现对内部信息的操作访问。</p>
+<p><strong>好处：</strong>提高了安全性 提高了复用性 提高了实现细节。</p>
+<p><strong>注意事项：</strong>类的属性中均用private来修饰 定义geter和seter方法。</p>
+<h2 id="第四章：继承"><a href="#第四章：继承" class="headerlink" title="第四章：继承"></a>第四章：继承</h2><p><strong>概念：</strong>比如FeiGe快递系统中有三个实体类Person（人），Courier（快递员）,Customer（客户）类Courier,Customer都属于（派生类）Person，所以都继承（extends）自Person类。</p>
+<p><strong>好处：</strong>提高了代码的重用性 提高了代码的扩展性</p>
+<p><strong>语法：</strong>class 类名 extends父接口{</p>
+<p>//属性定义</p>
+<p>//方法定义}</p>
+<p><strong>注意事项：1.</strong>子类继承父类所以的属性和方法，只不过只能调用非Private属性和方法2.java中的继承只支持单继 承，意思是一个子类只能继承一个父类，但是允许多层继承</p>
+<p><strong>继承中的构造方法：</strong>调用父类中的构造方法，需用到关键字super super指代父类</p>
+<p><strong>重写的概念：</strong>在继承的关系中。子类会自动继承父类中定义的方法，但有时子类中需要对继承的方法进行一些修 改，即对父类的方法进行重写。</p>
+<p><strong>语法：</strong>void 方法名（）{}</p>
+<p><strong>注意事项：</strong>子类重写父类的方法时，不能使用比父类中被重写的方法更严格的访问权限，重写方法和被重写方法必 须具有相同的方法名，相同的参数列表和相同的返回值类型，重写方法的访问修饰符必须大于被重写方法 的访问修饰符，否则就不能被称为方法的重写。</p>
+<p><strong>异常的处理：</strong>在程序执行代码的时候万一发生了异常，程序会按照预定的处理方法对异常进行处理，异常处 理完毕之后，程序继续运行。</p>
+<p><strong>语法：</strong>5个关键字 try catch finally throw throws</p>
+<p><strong>常见的异常类型</strong></p>
+<p> Exception 异常层次的根类 ArithmeticException 算术错误情形，如以零作除数</p>
+<p> ArrayIndexOutOfBoundsException 数组下标越界</p>
+<p> NullPointerException空指针异常</p>
+<p> ClassNotFoundException不能加载所需的类</p>
+<p> InputMismatchException得到的数据类型与实际输入的类型不匹配</p>
+<p> llegalArgumentException方法接收到非法参数</p>
+<p> ClassCastException对象强制类型转换出错</p>
+<p> NumberFormatException数字格式转换异常，如把“abc”转换成数字</p>
+<h2 id="第五章：多态"><a href="#第五章：多态" class="headerlink" title="第五章：多态"></a>第五章：多态</h2><p><strong>概念：</strong>指允许不同类的对象对同一消息做出响应即同同一消息可以根据发送对象的不同而采用多种不同的行为方 式。</p>
+<p><strong>好处：</strong>可替换性 可扩充性 接口性 灵活性 简化性</p>
+<p><strong>多态的使用：</strong></p>
+<p> <strong>子类向父类转换称为向上转型</strong></p>
+<p> <strong>向上转型：</strong>&lt;父类型&gt;&lt;引用变量名&gt;=new&lt;子类型&gt;（）；</p>
+<p> 将一个指向子类对象的父类引用赋给一个子类的引用，即将父类类型转换子类类型，称为向下转 型，此时必须进行强制类型转换。</p>
+<p> <strong>向下转型：</strong>&lt;子类型&gt;&lt;引用变量名&gt;=（&lt;子类型&gt;）&lt;父类型的引用变量&gt;；</p>
+<p> <strong>运算符：</strong>instanceof 进行类型的判断Try-catch-finally 如果try中的所有语句正常执行完毕那么finally块就会 被执行 多重catch 一段代码会出现多种异常这时可以在try语句后写多个catch语句块</p>
+<h2 id="第六章：抽象"><a href="#第六章：抽象" class="headerlink" title="第六章：抽象"></a>第六章：抽象</h2><p><strong>概念：</strong>如果一个类没有足够的信息去描述一个具体的对象那我们就称之为抽象类</p>
+<p><strong>语法：</strong>public abstract class类名{}</p>
+<p><strong>作用：</strong>抽象类是用来继承的比普通类更通用</p>
+<p><strong>抽象方法：</strong>abstract修饰没有方法体之声明返回的数据类型 方法名称和所需要的参数</p>
+<p><strong>语法 ：</strong>public abstract 返回值类型 方法名（参数列表）；</p>
+<p><strong>注意事项：</strong>包含抽象方法的类一定是抽象类 抽象类中不一定都是抽象方法 构造方法不能生命为抽象方法 abstract不能与private static final native 并列修饰同一个方法Final 修饰类 被final修饰过的类不能被继承 因为不能被继承所以此类中所有方法都是final修饰 该类如果不需要有子类不需要被扩展类的方法不允许被重写就用final修饰该类Throws通过try-catch捕获处理异常</p>
+<h2 id="第七章：接口"><a href="#第七章：接口" class="headerlink" title="第七章：接口"></a>第七章：接口</h2><p><strong>概述：</strong>在软件中接口是一种规范和标准他们可以约束类的行为是一些方法特征的集合但是没有方法的实现</p>
+<p><strong>语法：</strong></p>
+<p>【修饰符】interface接口名extends父接口1，父接口2……{//常量定义//方法定义}</p>
+<p>Class类名extends父类名implements接口1，接口2….{//类成员}</p>
+<p>Run（）；方法提供服务</p>
+<p>接口是一种能力接口是一种约定</p>
+<p><strong>抛出异常：</strong>throw 除系统自动抛出异常可以用throw自动抛出异常</p>
+<p> Throw在程序中抛出异常throws在方法内抛出异常</p>
+<h2 id="第八章：集合框架"><a href="#第八章：集合框架" class="headerlink" title="第八章：集合框架"></a>第八章：集合框架</h2><p>集合框架使用方便的接口和类都在java.util包中</p>
+<p><strong>集合框架的特点：</strong></p>
+<p> 长度 数组长度是固定的集合长度是可变的</p>
+<p> 存储对象 数组可以存储基本的数据类型，也可以存储对象的引用 集合只能用于存储对象的引用</p>
+<p> 对象类型 数组必须是相同类型的数据 对象可以是不同类型</p>
+<p><strong>接口区别：</strong></p>
+<p> Collection接口存储组 不唯一(允许重复)、 无序的对象。Set接口继承Collection接口，存储-组唯一(不允 许重复)、 无序的对象。List接口继承Collection接口，存储组不唯-(允许重复)、 有序(以元素插入的次序来放 置无素，不会重新排列)的对象<br>​ Map接口存储组成对的键 值对象，提供key(键)到value(值)的映射。Map中的key不要求有序，不允许重 复。value 同样不要求有序，但允许重复。</p>
+<p><strong>List接口：</strong></p>
+<p> 实现List接口的常用类有ArayList和Lnkedist.它们都可以容纳所有类型的对象，包括nll允许重复，并且都 保证元素的存储顺序。<br><strong>ArrayList和LinkedList的大致区别:</strong><br>arraylist是实现了基于动态数组的数据结构，LinkedList基于链表的数据结构对于随机访问get和set, ArrayList 优于LinkedList, 因为LinkedList要移动指针。<br>​ 对于新增和删除操作add和remove, LinkedList 比较占优势，因为ArrayList要移动数据。</p>
+<p><strong>list接口定义中的格各种常用方法</strong></p>
+<p>boolean add(Object o)在列表末尾顺序添加元素，起始索引位置从0开始<br>int size()返回列表中的元素个数<br>void add(int index,Objecto)在指定的索 引位置添加元素，原索引位置及其后面的元素依次后移<br>注意:新添加元素的索引位置必须介于0和列表中元素个数之间</p>
+<p>0bject get(int index)返回指定索引位置处的元素<br>注意:取出的元素是Object类型，使用前需要进行强制类型转换<br>boolean contains(Object o)判断列表中是否存在指定元素<br>boolean remove(Object o)从列表中删除元素<br>Object remove(int index)从列表中删除指定位置元素，起始索引位置从0开始</p>
+<p><strong>Linkedlist的一些特殊用法</strong><br>void addFirst(Object o)在列表的首部添加元素<br>void addLast(Object o)在列表的末尾添加元素<br>Object getFirst( )返回列表中的第一” 个元素<br>Object getLast( )返回列表中的最后一个元素<br>Object removeFirst( )删除并返回列表中的第一个元素</p>
+<p><strong>Set接口</strong></p>
+<p>Hashset的优点就是各方面都很快但数据是无序的</p>
+<p>Threeset优点是有序而且可以按照升序方式进行排序，但是其他各方面不突出</p>
+<p><strong>Map接口</strong></p>
+<p>Object put （object key，object value）以“键一值对”的方式进行存储<br>如果武图添加重复的<br>键，那么最后加入的“键-值对”将替换掉原先的“键一道<br>对”<br>Object get (Object key)根据键返回相关联的值，若不存在指定的键，则返回null</p>
+<p>Object remove (Object key)删除指定的键映射的“键一值对”<br>int size()返回元素个数<br>Set keySet()返回键的集合<br>Collection values( )返回值的集合<br>boolean containsKey (Object key)若存在指定的键映射的“键值对”，则返回true<br>boolean isEmpty( )若不存在键一值映射关系，则返回true<br>void clear()从此映射中移除所有映射关系<br>泛型集合：list ArrayList</p>
+<p>ArrayL ist&lt;0bject&gt; list=new ArrayL ist&lt;0bject&gt;() ;</p>
+<p>list. add (0);</p>
+<p>list. add(99.9);</p>
+<p>list. add(false);</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用泛型集合在创建集合对象时指定集合中元素的类型，从集合中取出元素时无须进行类型强制转换，并且如果把非指定类型对象放入集合，会出现编译错误。</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2019/10/09/hello-world/" class="article-date">
+      <time datetime="2019-10-09T08:11:10.443Z" itemprop="datePublished">2019-10-09</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/10/09/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+  
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2016-2019 John Doe
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="A fast, simple &amp; powerful blog framework">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="Another simple and elegant theme for Hexo  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="Site Visitors"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="Page Hits"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
     </div>
 </footer>
-
-
-    <!-- After footer scripts -->
+    </div>
     
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
 
-<!-- Bootstrap -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 5;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
 
-<!-- Gallery -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-
-<!-- Disqus Comments -->
 
 
 
+
+<div class="scroll" id="scroll">
+    <a href="#" title="Back to Top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="Comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="Go to Bottom"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+            
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div>
 </body>
-
 </html>
